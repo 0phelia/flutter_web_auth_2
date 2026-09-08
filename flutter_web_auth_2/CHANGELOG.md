@@ -1,3 +1,8 @@
+## Unreleased
+
+- Use Auth Tabs only when the selected Android browser reports support and allow callers to prefer a regular Custom Tab.
+- Report Auth Tab verification failures and timeouts with dedicated platform error codes.
+
 ## 6.0.0-alpha.7
 
 - 🐛 Handle missing `authUri`/`callbackScheme` gracefully (Thanks to [@md-shohan-ahmed](https://github.com/md-shohan-ahmed) in [#209](https://github.com/ThexXTURBOXx/flutter_web_auth_2/pull/209), related to [#207](https://github.com/ThexXTURBOXx/flutter_web_auth_2/issues/207))
