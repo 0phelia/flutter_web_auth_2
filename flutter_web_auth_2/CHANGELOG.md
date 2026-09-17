@@ -1,7 +1,6 @@
 ## Unreleased
 
-- Use Auth Tabs only when the selected Android browser reports support and allow callers to prefer a regular Custom Tab.
-- Report Auth Tab verification failures and timeouts with dedicated platform error codes.
+- Use Auth Tabs only when the selected Android browser reports support, automatically retry refused Auth Tab flows with a regular Custom Tab, and allow callers to prefer a regular Custom Tab.
 
 ## 6.0.0-alpha.7
 
